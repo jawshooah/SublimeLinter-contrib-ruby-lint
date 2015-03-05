@@ -1,0 +1,10 @@
+SublimeLinter-contrib-ruby-lint
+-------------------------------
+This linter plugin for SublimeLinter provides an interface to ruby-lint.
+
+** IMPORTANT! **
+
+Before this plugin will activate, you *must*
+follow the installation instructions here:
+
+https://github.com/jawshooah/SublimeLinter-contrib-ruby-lint
