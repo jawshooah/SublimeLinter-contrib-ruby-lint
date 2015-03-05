@@ -2,7 +2,6 @@ SublimeLinter-contrib-ruby-lint
 ================================
 
 [![Build Status](https://travis-ci.org/jawshooah/SublimeLinter-contrib-ruby-lint.svg?branch=master)](https://travis-ci.org/jawshooah/SublimeLinter-contrib-ruby-lint)
-[![Codacy Badge](https://www.codacy.com/project/badge/fe2c9325e1f34ecfb8dbc79012e2c719)](https://www.codacy.com/public/haginsjosh/SublimeLinter-contrib-ruby-lint)
 
 This linter plugin for [SublimeLinter][docs] provides an interface to [ruby-lint](https://github.com/YorickPeterse/ruby-lint). It will be used with files that have the “Ruby” syntax.
 
