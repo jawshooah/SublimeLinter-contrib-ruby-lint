@@ -20,7 +20,7 @@ class RubyLint(RubyLinter):
     syntax = ('ruby', 'ruby on rails', 'rspec')
     cmd = 'ruby-lint@ruby'
     version_args = '--version'
-    version_re = r'ruby-lint v(?P<version>\d+\.\d+\.\d+)'
+    version_re = r'(?P<version>\d+\.\d+\.\d+)'
     version_requirement = '>= 2.0.0'
     regex = (
         r'^.+?: (?:(?P<warning>warning)|(?P<error>error)): '
