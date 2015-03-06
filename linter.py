@@ -18,8 +18,8 @@ class RubyLint(RubyLinter):
     """Provides an interface to ruby-lint."""
 
     syntax = ('ruby', 'ruby on rails', 'rspec')
-    cmd = 'ruby-lint@ruby'
-    version_args = '--version'
+    cmd = 'ruby -S ruby-lint'
+    version_args = '-S ruby-lint --version'
     version_re = r'(?P<version>\d+\.\d+\.\d+)'
     version_requirement = '>= 2.0.0'
     regex = (
