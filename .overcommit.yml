@@ -1,9 +1,8 @@
 PreCommit:
   Pep257:
+    enabled: true
     flags: ['--ignore=D202']
 
-  Pylint:
-    enabled: false
-
   PythonFlake8:
+    enabled: true
     flags: ['--max-line-length=120']
