@@ -1,4 +1,10 @@
 PreCommit:
+  JsonSyntax:
+    enabled: true
+    include:
+      - '*.json'
+      - '.sublimelinterrc'
+
   Pep257:
     enabled: true
     flags: ['--ignore=D202']
@@ -6,3 +12,9 @@ PreCommit:
   PythonFlake8:
     enabled: true
     flags: ['--max-line-length=120']
+
+  TravisLint:
+    enabled: true
+
+  YamlSyntax:
+    enabled: true
